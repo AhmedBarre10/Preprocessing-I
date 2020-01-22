@@ -438,7 +438,3 @@ header nav a {
     width: 200px;
   }
 }
-body {
-  overflow: hidden;
-  /* Hide scrollbars */
-}
