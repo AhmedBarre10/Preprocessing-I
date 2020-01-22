@@ -162,14 +162,15 @@ header nav a {
   color: dodgerblue;
   text-decoration: none;
   position: relative;
-  left: 50%;
+  left: 51%;
   font-size: 25px;
   padding: 3%;
 }
 @media (max-width: 500px) {
   header nav a {
     width: 100%;
-    font-size: 20px;
+    font-size: 12px;
+    font-weight: bold;
   }
 }
 .intro {
@@ -436,4 +437,8 @@ header nav a {
     background-color: dodgerblue;
     width: 200px;
   }
+}
+body {
+  overflow: hidden;
+  /* Hide scrollbars */
 }
