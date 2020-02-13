@@ -50,10 +50,327 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	max-width: 100%;
+	padding-right: 0px;
 }
 
 html, body {
-    height: 100%;
+	max-height:100%;
+	max-width: 100%;
+	height: 100%;
+}
+body{
+	background-color:white;
+	height: 1200px;
+	border: 13px transparent;
+	padding-bottom: 20px;
+
+	
+}
+@cl:dodgerblue;
+@cl2:white;
+
+header{
+	
+	
+	display: flex;
+	justify-content: center;
+	position: relative;
+	right: 20%;
+	top:5%;
+	
+		
+	nav{
+      
+		width: 100%;
+		
+		padding: 20px;
+		@media (max-width:500px){
+
+			width: 100%;
+			font-size: 10px;
+			position: relative;
+			right: 70px;
+			bottom: 20px;
+		}
+	}
+
+	nav a{
+		font-family: 'Cabin', sans-serif;
+		color:@cl;
+		text-decoration: none;
+		position: relative;
+		left: 48%;
+		
+		font-size: 25px;
+		padding: 3%;
+		@media (max-width:500px){
+
+			width: 100%;
+			font-size: 10px;
+			font-weight: bold;
+			
+		}
+	}
+	
+
+}
+@color:dodgerblue;
+
+
+
+.introh2{
+	@media (max-width:500px){
+
+		display: none;
+		}
+
+	background-color: lightgrey;
+	color: dodgerblue;
+	width: 700px;
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	left: 30%;
+	top: 50px;
+	padding-bottom: 10px;
+}
+.introp{
+	@media (max-width:500px){
+
+		display: none;
+		}
+	.introh2();
+	font-size: 30px;
+	color: dodgerblue;
+	background-color: whitesmoke;
+	border: 5px dodgerblue solid;
+	padding:20px;
 }
 
+.skill{
+	@media (max-width:500px){
+
+		display: none;
+		}
+
+
+
+.myskills{
+
+	background-color: lightgrey;
+	color:@color;
+	width: 700px;
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	left: 30%;
+	top: 60px;
+	padding-bottom: 10px;
+}
+.myskillsp{
+	.introh2();
+	display: ;
+	font-size: 30px;
+	color: dodgerblue;
+	background-color: whitesmoke;
+	border: 5px dodgerblue solid;
+	padding:20px;
+}
+ }
+.work{
+
+	
+
+.mywork{
+
+
+	@media (max-width:500px){
+
+		display: none;
+		}
+	background-color: lightgrey;
+	color: @color;
+	width: 700px;
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	left: 30%;
+	top: 60px;
+	padding-bottom: 10px;
+}
+
+
+
+.myworkp{
+	.introh2();
+	@media (max-width:500px){
+
+		display: none;
+		}
+	display:flex ;
+	font-size: 30px;
+	color: @color;
+	background-color: whitesmoke;
+	border: 5px solid dodgerblue;
+	padding:20px;
+}
+}
+.Conactss{
+	 @media (max-width:500px){
+
+	display: none;
+	}
+
+
+.mycon{
+
+	background-color: lightgrey;
+	color: @color;
+	width: 700px;
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	left: 30%;
+	top: 60px;
+	padding-bottom: 10px;
+}
+.conp{
+	.introh2();
+	display: ;
+	font-size: 30px;
+	color: dodgerblue;
+	background-color: whitesmoke;
+	border: 5px dodgerblue solid;
+	padding:20px;
+}
+.Conactss{
+	padding-bottom: 20px;
+}
+}
+
+.mobilep1{
+	display: none;
+	@media (max-width:500px){
+		color: dodgerblue;
+		display: flex;
+		font-size: 30px;
+		width: 80%;
+		position: relative;
+		left: 30px;
+		padding-bottom: 70px;
+		top: 30px;
+
+	}
+	
+	
+}
+.mobileh2{
+	display: none;
+	@media (max-width:500px){
+           display: flex;
+		color: black;
+		font-size: 40px;
+		position: relative;
+		left: 20px;
+		background-color: dodgerblue;
+		width: 200px;
+		top: 30px;
+		
+	}
+}
+
+.skills{
+	display: none;
+	@media (max-width:500px){
+		color: dodgerblue;
+		display: flex;
+		font-size: 30px;
+		width: 80%;
+		position: relative;
+		left: 30px;
+		padding-bottom: 70px;
+
+	}
+	
+	
+}
+.skillsh2{
+	display: none;
+	@media (max-width:500px){
+           display: flex;
+		color: black;
+		font-size: 40px;
+		position: relative;
+		left: 20px;
+		background-color: dodgerblue;
+		width: 200px;
+		
+	}
+}
+	.works{
+		display: none;
+		@media (max-width:500px){
+			color: dodgerblue;
+			display: flex;
+			font-size: 30px;
+			width: 80%;
+			position: relative;
+			left: 30px;
+			padding-bottom: 70px;
+	
+		}
+	}
+		.workh2{
+			display: none;
+			@media (max-width:500px){
+				   display: flex;
+				color: black;
+				font-size: 40px;
+				position: relative;
+				left: 20px;
+				background-color: dodgerblue;
+				width: 200px;
+				
+			}
+		
+	
+		}
+		.contact{
+			display: none;
+			@media (max-width:500px){
+				color: dodgerblue;
+				display: flex;
+				font-size: 30px;
+				width: 80%;
+				position: relative;
+				left: 30px;
+				margin-bottom: 20px;
+		
+			}
+		}
+
+		.contacth2{
+			display: none;
+			@media (max-width:500px){
+				   display: flex;
+				color: black;
+				font-size: 40px;
+				position: relative;
+				left: 20px;
+				background-color: dodgerblue;
+				width: 200px;
+				
+			}
+		
+	
+		}
+		footer p{
+		position: relative;
+		bottom: 300px;
+		}
